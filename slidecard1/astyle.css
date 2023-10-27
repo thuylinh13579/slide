@@ -1,0 +1,162 @@
+@media (min-width: 960px){
+.angular-app-styles .col--md-6, .cdk-overlay-container .col--md-6 {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+.angular-app-styles .col--12, .cdk-overlay-container .col--12 {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.angular-app-styles .grid>.col, .angular-app-styles [class^=col-], .angular-app-styles [class*=" col-"], .cdk-overlay-container .grid>.col, .cdk-overlay-container [class^=col-], .cdk-overlay-container [class*=" col-"] {
+    padding-left: var(--grid-gutter);
+    padding-right: var(--grid-gutter);
+}
+.angular-app-styles html, .angular-app-styles body, .angular-app-styles div, .angular-app-styles span, .angular-app-styles applet, .angular-app-styles object, .angular-app-styles iframe, .angular-app-styles h1, .angular-app-styles h2, .angular-app-styles h3, .angular-app-styles h4, .angular-app-styles h5, .angular-app-styles h6, .angular-app-styles p, .angular-app-styles blockquote, .angular-app-styles pre, .angular-app-styles a, .angular-app-styles abbr, .angular-app-styles acronym, .angular-app-styles address, .angular-app-styles big, .angular-app-styles cite, .angular-app-styles code, .angular-app-styles del, .angular-app-styles dfn, .angular-app-styles em, .angular-app-styles img, .angular-app-styles ins, .angular-app-styles kbd, .angular-app-styles q, .angular-app-styles s, .angular-app-styles samp, .angular-app-styles small, .angular-app-styles strike, .angular-app-styles strong, .angular-app-styles sub, .angular-app-styles sup, .angular-app-styles tt, .angular-app-styles var, .angular-app-styles b, .angular-app-styles u, .angular-app-styles i, .angular-app-styles center, .angular-app-styles dl, .angular-app-styles dt, .angular-app-styles dd, .angular-app-styles ol, .angular-app-styles ul, .angular-app-styles li, .angular-app-styles fieldset, .angular-app-styles form, .angular-app-styles label, .angular-app-styles legend, .angular-app-styles table, .angular-app-styles caption, .angular-app-styles tbody, .angular-app-styles tfoot, .angular-app-styles thead, .angular-app-styles tr, .angular-app-styles th, .angular-app-styles td, .angular-app-styles article, .angular-app-styles aside, .angular-app-styles canvas, .angular-app-styles details, .angular-app-styles embed, .angular-app-styles figure, .angular-app-styles figcaption, .angular-app-styles footer, .angular-app-styles header, .angular-app-styles hgroup, .angular-app-styles menu, .angular-app-styles nav, .angular-app-styles output, .angular-app-styles ruby, .angular-app-styles section, .angular-app-styles summary, .angular-app-styles time, .angular-app-styles mark, .angular-app-styles audio, .angular-app-styles video, .cdk-overlay-container html, .cdk-overlay-container body, .cdk-overlay-container div, .cdk-overlay-container span, .cdk-overlay-container applet, .cdk-overlay-container object, .cdk-overlay-container iframe, .cdk-overlay-container h1, .cdk-overlay-container h2, .cdk-overlay-container h3, .cdk-overlay-container h4, .cdk-overlay-container h5, .cdk-overlay-container h6, .cdk-overlay-container p, .cdk-overlay-container blockquote, .cdk-overlay-container pre, .cdk-overlay-container a, .cdk-overlay-container abbr, .cdk-overlay-container acronym, .cdk-overlay-container address, .cdk-overlay-container big, .cdk-overlay-container cite, .cdk-overlay-container code, .cdk-overlay-container del, .cdk-overlay-container dfn, .cdk-overlay-container em, .cdk-overlay-container img, .cdk-overlay-container ins, .cdk-overlay-container kbd, .cdk-overlay-container q, .cdk-overlay-container s, .cdk-overlay-container samp, .cdk-overlay-container small, .cdk-overlay-container strike, .cdk-overlay-container strong, .cdk-overlay-container sub, .cdk-overlay-container sup, .cdk-overlay-container tt, .cdk-overlay-container var, .cdk-overlay-container b, .cdk-overlay-container u, .cdk-overlay-container i, .cdk-overlay-container center, .cdk-overlay-container dl, .cdk-overlay-container dt, .cdk-overlay-container dd, .cdk-overlay-container ol, .cdk-overlay-container ul, .cdk-overlay-container li, .cdk-overlay-container fieldset, .cdk-overlay-container form, .cdk-overlay-container label, .cdk-overlay-container legend, .cdk-overlay-container table, .cdk-overlay-container caption, .cdk-overlay-container tbody, .cdk-overlay-container tfoot, .cdk-overlay-container thead, .cdk-overlay-container tr, .cdk-overlay-container th, .cdk-overlay-container td, .cdk-overlay-container article, .cdk-overlay-container aside, .cdk-overlay-container canvas, .cdk-overlay-container details, .cdk-overlay-container embed, .cdk-overlay-container figure, .cdk-overlay-container figcaption, .cdk-overlay-container footer, .cdk-overlay-container header, .cdk-overlay-container hgroup, .cdk-overlay-container menu, .cdk-overlay-container nav, .cdk-overlay-container output, .cdk-overlay-container ruby, .cdk-overlay-container section, .cdk-overlay-container summary, .cdk-overlay-container time, .cdk-overlay-container mark, .cdk-overlay-container audio, .cdk-overlay-container video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.angular-app-styles div, .angular-app-styles img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.angular-app-styles *, .angular-app-styles *:before, .angular-app-styles *:after, .cdk-overlay-container *, .cdk-overlay-container *:before, .cdk-overlay-container *:after {
+    box-sizing: inherit;
+}
+.angular-app-styles *, .angular-app-styles *:before, .angular-app-styles *:after {
+    box-sizing: inherit;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+@media (min-width: 960px){
+.angular-app-styles .grid, .cdk-overlay-container .grid {
+    --grid-gutter: 1rem;
+}
+}
+@media (min-width: 600px){
+.angular-app-styles .grid, .cdk-overlay-container .grid {
+    --grid-gutter: .75rem;
+}
+}
+.angular-app-styles .grid, .cdk-overlay-container .grid {
+    --grid-gutter: .5rem;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: calc(var(--grid-gutter) * -1);
+    margin-right: calc(var(--grid-gutter) * -1);
+}
+.angular-app-styles .grid {
+    padding: 0;
+    font: 16px/23px Roboto,sans-serif;
+}
+.angular-app-styles, .cdk-overlay-container {
+    font-family: Roboto,sans-serif;
+    font-size: 1em;
+    line-height: 1.5rem;
+    color: #17262b;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.angular-app-styles {
+    font-family: Roboto,sans-serif;
+    font-size: 1em;
+    line-height: 1.5rem;
+    color: #17262b;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+style attribute {
+    --app-content-offset-top: 71px;
+    --app-content-offset-left: 0px;
+    --app-content-offset-bottom: 0px;
+}
+html {
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #17262b;
+    background-color: #fff;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html {
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #17262b;
+    background-color: #fff;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.angular-app-styles *, .angular-app-styles *:before, .angular-app-styles *:after, .cdk-overlay-container *, .cdk-overlay-container *:before, .cdk-overlay-container *:after {
+    box-sizing: inherit;
+}
+.angular-app-styles *, .angular-app-styles *:before, .angular-app-styles *:after {
+    box-sizing: inherit;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.angular-app-styles *, .angular-app-styles *:before, .angular-app-styles *:after, .cdk-overlay-container *, .cdk-overlay-container *:before, .cdk-overlay-container *:after {
+    box-sizing: inherit;
+}
+.angular-app-styles *, .angular-app-styles *:before, .angular-app-styles *:after {
+    box-sizing: inherit;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}

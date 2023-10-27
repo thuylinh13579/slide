@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Infinite Card Slider JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="product">
+      <div class="product-small-img">
+       <img src="images/64ba22d83e0cb5f9b10d00fc.png"onclick="myFunction(this)">
+       <img src="images/64ba23c53e0cb5f9b10d00ff1.png"onclick="myFunction(this)">
+       <img src="images/62f518f179f36a7c6d0e7e242.png"onclick="myFunction(this)">
+       <img src="images/64ba20656ebb5f4aa904ba643.png"onclick="myFunction(this)">
+       <img src="images/64ba2076a4615dc4040e3a834.png"onclick="myFunction(this)">
+      </div>
+    <div class="img-big">
+      <img id="imageBox"src="images/64ba23c53e0cb5f9b10d00ff1.png">
+    </div>
+  </div>
+    <script>
+      function myFunction(smallImg){
+    var fullImg = document.getElementById("imageBox");
+    fullImg.src = smallImg.src;
+    }
+    </script>
+  </body>
+</html>

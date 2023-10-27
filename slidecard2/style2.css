@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+
+}
+
+.slide-card {
+  width: 200px;
+}
+
+.arrow-container {
+
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.up-down-btn {
+  display: flex;
+  justify-content: center;
+  background-color: #ddd;
+  border: none;
+  color: #000;
+  font-size: 16px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 80px;
+  height: 80px;
+  
+}
+
+.large-image-container {
+  width: 500px;
+}
+
+.hidden {
+  display: none;
+}
